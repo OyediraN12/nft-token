@@ -78,7 +78,7 @@
 
 .loader span {
     background-image: -o-linear-gradient(right bottom, #fd562a, rgba(211, 40, 83, 0.70), rgba(148, 31, 95, 0.80), #4f2155, #161634);
-    background-image: -webkit-gradient(linear, right bottom, left top, from(#fd562a), color-stop(rgba(211, 40, 83, 0.70)), color-stop(rgba(148, 31, 95, 0.80)), color-stop(#4f2155), to(#161634));
+   
     background-image: linear-gradient(to left top, #fd562a, rgba(211, 40, 83, 0.70), rgba(148, 31, 95, 0.80), #4f2155, #161634);
     width: 6px;
     height: 90px;
@@ -3153,9 +3153,7 @@ textarea.form-control {
 }
 @media screen and (max-width: 400px) {
     .tok-flot {
-      width: 100%;
-      text-align: center;
-      text-overflow: hidden;
+      float:none
     }
     .lt1{
         line-break:auto;
