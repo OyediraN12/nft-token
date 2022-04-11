@@ -1952,7 +1952,7 @@ img {
 
 .nft-contact-from .form-control,
 .nft-contact-from textarea {
-    background: #0f0826;
+    /* background: #301f68; */
     height: 70px;
     border-radius: 5px;
     color: #fff;
@@ -2175,11 +2175,11 @@ textarea.form-control {
     font-size: 15px;
 }
 
-.wallet-image img {
+/* .wallet-image img {
     width: 60px;
     border: 3px solid rgba(255, 255, 255, 0.20);
     border-radius: 50%;
-}
+} */
 
 .wallet-area.two::after {
     background-color: transparent;
